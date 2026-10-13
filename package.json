@@ -1,7 +1,7 @@
 {
   "name": "@monxinjiofc/baileys",
   "type": "module",
-  "version": "7.0.1",
+  "version": "8.0.1",
   "description": "A WebSockets library for interacting with WhatsApp Web (fork by monxinjiofc)",
   "keywords": [
     "whatsapp",
@@ -20,7 +20,9 @@
     "lib/**/*",
     "WAProto/**/*",
     "engine-requirements.js",
-    "postinstall.cjs"
+    "postinstall.cjs",
+    "lib",
+    "WAProto"
   ],
   "scripts": {
     "build:all": "npm run build && npm run build:docs",
